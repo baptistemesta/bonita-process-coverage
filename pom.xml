@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <bonita.version>6.5.0-SNAPSHOT</bonita.version>
   </properties>
 
   <dependencies>
@@ -30,17 +31,27 @@
     <dependency>
       <groupId>org.bonitasoft.engine</groupId>
       <artifactId>bonita-client</artifactId>
-      <version>6.3.9</version>
+      <version>${bonita.version}</version>
     </dependency>
     <dependency>
       <groupId>org.bonitasoft.engine</groupId>
       <artifactId>bonita-common</artifactId>
-      <version>6.3.9</version>
+      <version>${bonita.version}</version>
     </dependency>
     <dependency>
       <groupId>org.bonitasoft.engine.test</groupId>
-      <artifactId>bonita-test-utils</artifactId>
-      <version>6.3.9</version>
+      <artifactId>bonita-client-test-utils</artifactId>
+      <version>${bonita.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.engine.test</groupId>
+      <artifactId>bonita-server-test-utils</artifactId>
+      <version>${bonita.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.engine.test</groupId>
+      <artifactId>bonita-common-test-utils</artifactId>
+      <version>${bonita.version}</version>
     </dependency>
   </dependencies>
 </project>
